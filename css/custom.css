@@ -1,0 +1,52 @@
+/* ---------------- Шрифты --------------- */
+@font-face{ 
+	font-family: 'RobotoH1';
+	src: url('../fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face{ 
+	font-family: 'RobotoH2';
+	src: url('../fonts/RobotoSlab-Bold.ttf') format('truetype');
+}
+
+@font-face{ 
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+/* ---------------- Базовые стили --------------- */
+html {
+  min-height: 100%;
+}
+
+body {
+  background: #edecea;
+  width: 976px;
+  margin: 0 auto;
+  color: #333;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+h1 {
+  color: #222;
+  font-family: 'RobotoH1', Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 100;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  color: #aaa; 
+  font-family: 'RobotoH2', Arial, sans-serif;
+  font-size: 1.4em;
+  font-weight: bold; 
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+}
+
+figure {
+  margin: 0px;
+  padding: 0px;
+}
