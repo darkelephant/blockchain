@@ -25,6 +25,7 @@ body {
   margin: 0 auto;
   color: #333;
   font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
 }
 
 h1 {
@@ -44,6 +45,28 @@ h2 {
   text-transform: uppercase;
   margin: 0px;
   padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+aside {
+  background: #e4e4e4;
+  border-radius: 0px 12px 12px 0px;
+  padding: 0px 0px 8px 5px;
+  position: absolute;
+  border-left: #AAA 8px solid;
+  right: 0px;
+  width: 100px;
+}
+
+aside:before {
+  font: italic 400%/1 Cochin,Georgia,"Times New Roman", serif;
+  content: "“";
+  display: block;
+  height: 20px;  
+  margin-left: -.75em;
 }
 
 figure {
